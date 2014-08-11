@@ -4,13 +4,21 @@ GoldFash-Dash
 GoldFash Hosting Admin Panel
 
 === GoldFash Custom Dashboard ===
+=============
 Author URI: https://goldfash.com:443/
+=============
 Plugin URI: https://goldfash.com:443/plugins
+=============
 Contributors: Racean Ford
+=============
 Donate link: https://goldfash.com:443/donate
+=============
 Tags: Racean Ford, GoldFash Hosting, dashboard, metabox, metaboxes, customization, administration, panel, console
+=============
 Requires at least: 3.0
+=============
 Tested up to: 3.5
+=============
 Stable Tag: 0.1
 
 A Security Plugin Required by GoldFash Hosting
