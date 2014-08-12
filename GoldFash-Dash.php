@@ -7,7 +7,6 @@ Version: 0.1
 Author: GoldFash Design
 Author URI:        https://goldfash.com:443/
 Contributors:      raceanf
-Text Domain:       GoldFash-Dash
 Domain Path:       /languages
 Text Domain:       GoldFash-Dash
 GitHub Plugin URI: https://github.com/goldfashhosting/GoldFash-Dash
