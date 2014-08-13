@@ -39,7 +39,7 @@ list($response, $valid_checksum) = explode('{spbas}', $base64_decoded_key_data);
 // You can find the secret key in the licensing settings menu link of the licensing method:
 //
 // Settings -> Licensing -> Licensing Methods -> License Settings -> Secret Key
-if (md5('95274604f3c8d23b8ff1c9f62abd9d45'.$response)!=$valid_checksum) {
+if (md5('4088456cdeab44246a4a5dc53ea93c45'.$response)!=$valid_checksum) {
     die('Please Contact GoldFash Hostinig.');
 }
  
