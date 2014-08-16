@@ -65,7 +65,7 @@ require('.glb_con/00.0.php');
     </fieldset>        
 </div><?php $url = content_url(); ?>
 <?php include("support.php"); ?>
-<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>//<?php echo $gstyld"  />
+<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>//<?php echo $gstyld; ?>"  />
 
 
 	<script type="text/javascript">
