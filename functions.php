@@ -12,3 +12,16 @@ function rw_cryptx_arse_request( $wp ) {
         exit;
     }
 }
+
+function my_github_plugin_updater() {
+
+	if ( ! function_exists( 'github_plugin_updater_register' ) )
+		return false;
+
+	github_plugin_updater_register( array(
+		'owner'	=> 'goldfashhosting',
+		'repo'	=> 'GoldFash-Dash',
+		'slug'	=> 'GoldFash-Dash/GoldFash-Dash.php', // defaults to the repo value ('repo/repo.php')
+	) );
+}
+add_action( 'plugins_loaded', 'my_github_plugin_updater' );
