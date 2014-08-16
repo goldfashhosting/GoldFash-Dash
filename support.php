@@ -14,13 +14,14 @@ echo(rand(7777,99999));
     <fieldset>
         <legend>Terms & Disclosures</legend>
         <?php
-$supcop = file_get_contents('https://www.rfig.us/ale/clie/plugin_support&copy.php');
 echo $supcop;
 ?><?php
 echo $goldterm;
 ?><ul>
-            <li>..</li>
-            <li>..</li>
+            <li>Account Security Code</li>
+            <li><?php echo '<pre>';
+print_r($goldSecurity);
+echo '</pre>'; ?></li>
         </ul>
     </fieldset>
 </div>
