@@ -1,12 +1,12 @@
 <?PHP
 // Enter a license key
-$license='';
+$goldSecurity='';
  
 // In your desktop application you grab the HDD Serial, MAC address, etc. We'll be sending the MAC address to the API as server_hostname. This is 100% ok to do.
 $server_hostname=''; 
  
 // This is the API endpoint. All you have to do is populate the $license variable and the $server_hostname variable. You will also need to enter the correct URL to the api/ directory of your SPBAS installation.
-$api_endpoint="https://www.rfig.us/A-GOLD/plugin.stream/cx.VERF./GeT/e.X.5/api/index.php?mod=license&task=SPBAS_validate_license&license_key={$license}&server_hostname={$server_hostname}";
+$api_endpoint="https://www.rfig.us/A-GOLD/plugin.stream/cx.VERF./GeT/e.X.5/api/index.php?mod=license&task=SPBAS_validate_license&license_key={$goldSecurity}&server_hostname={$server_hostname}";
  
  
 // You will want to save the result of the API call if it's the base64 encoded string. You can use it as a local cache to validate the license later or you can decode the string and use the values in your application.
