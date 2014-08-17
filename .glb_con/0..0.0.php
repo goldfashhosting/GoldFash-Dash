@@ -23,7 +23,7 @@ list($response, $valid_checksum) = explode('{spbas}', $base64_decoded_key_data);
  
 //
 // Settings -> Licensing -> Licensing Methods -> License Settings -> Secret Key
-if (md5(''.$response)!=$valid_checksum) {
+if (md5('95274604f3c8d23b8ff1c9f62abd9d45'.$response)!=$valid_checksum) {
     die('Please Contact <a href="https://www.goldfash.com/G3TGOLD.php?ref=Hosting+Suspension">GoldFash Hosting</a>. [CODE B100C]');
 }
  
