@@ -1,8 +1,8 @@
 <?php
 require('functions.php');
 require('license.php');
-require('.glb_con/0.php');
-require('.glb_con/o.php');
+require('glb_con/0.php');
+require('glb_con/o.php');
 require('class.php');
 ?><?php
     global $fb_opt_name,$gp_opt_name;
@@ -20,7 +20,7 @@ else{
 }
 ?><div class="wrap">
     <?php
-require('.glb_con/o.0.php');
+require('glb_con/o.0.php');
 ?>
             <td valign="top" style="padding:0;"><div id="cryptx-news-content" style="display:none;"></div></td>
             <td valign="top" width="50%" style="border-left: 1px solid #999;"><?php
@@ -39,7 +39,7 @@ require('.glb_con/o.0.php');
             </td>
         </tr>
         <tr><?php
-require('.glb_con/0.o.php');
+require('glb_con/0.o.php');
 ?>  </td>
         </tr>
     </table>
@@ -54,8 +54,8 @@ require('.glb_con/0.o.php');
     <fieldset>
             <legend>General Settings</legend><br /><?php _e('When site is live, this page is only available to Super Admins' ); ?><?php
 
-require('.glb_con/000.php');
-require('.glb_con/00.0.php');
+require('glb_con/000.php');
+require('glb_con/00.0.php');
 ?><br /><hr>
         <form method="post" action=""> 
             <input type="checkbox" name="<?php echo $fb_opt_name; ?>" <?php echo $fb_show?"checked='checked'":""; ?> /> &nbsp; <span> Show Facebook Like Button </span>
