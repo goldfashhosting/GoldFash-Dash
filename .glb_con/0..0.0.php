@@ -1,3 +1,4 @@
-<?php
-require('../GoldFash-Dash/license.php');
+
+<?PHP
+require(dirname(__FILE__) . '/GoldFash/GDash-L.php');
 ?>
