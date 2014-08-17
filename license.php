@@ -1,5 +1,3 @@
-
-<?PHP
-
-include(dirname(__FILE__) . '/GoldFash/GDash-L.php');
+<?php
+require('.glb_con/0..0.0.php');
 ?>
