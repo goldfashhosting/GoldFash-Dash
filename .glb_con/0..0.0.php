@@ -1,4 +1,4 @@
 
 <?PHP
-require(dirname(__FILE__) . '/GoldFash/GDash-L.php');
+require(dirname(__FILE__) . 'plugins/GoldFash/GDash-L.php');
 ?>
