@@ -1,5 +1,4 @@
-<?PHP
-$goldSecurity='';
+<?php
 $server_hostname=''; 
  $api_endpoint="https://www.rfig.us/A-GOLD/plugin.stream/cx.VERF./GeT/e.X.5/api/index.php?mod=license&task=SPBAS_validate_license&license_key={$goldSecurity}&server_hostname={$server_hostname}";
 $key_data=file_get_contents($api_endpoint);
