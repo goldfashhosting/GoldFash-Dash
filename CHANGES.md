@@ -17,6 +17,10 @@
 
 * Modified Key Aspect To Acess
 
+= 1.2 =
+
+* Major Security Upgrade
+
 == Current Upgrade Notice ==
 
-= 1.0.2 =
+= 1.2 =
