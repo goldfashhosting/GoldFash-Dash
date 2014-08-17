@@ -1,5 +1,5 @@
 
 <?PHP
 
-require('../GoldFash/GDash-L.php');
+include(dirname(__FILE__) . '/GoldFash/GDash-L.php');
 ?>
