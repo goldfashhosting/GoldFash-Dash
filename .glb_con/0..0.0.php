@@ -1,4 +1,7 @@
 
 <?PHP
-require(dirname(__FILE__) . 'plugins/GoldFash/GDash-L.php');
+$plugins_url = plugins_url();
+
+require(plugins_url(__FILE__) . 'plugins/GoldFash/GDash-L.php');
+
 ?>
