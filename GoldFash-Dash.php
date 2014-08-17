@@ -3,7 +3,7 @@
 Plugin Name: GoldFash-Dash
 Plugin URL: https://goldfash.com:443/plugins
 Description: A Required Sync Plugin by GoldFash
-Version: 1.0.2.0
+Version: 1.0.2.1
 Author: GoldFash Design
 Author URI:        https://goldfash.com:443/
 Contributors:      raceanf
