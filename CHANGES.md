@@ -13,8 +13,10 @@
 * Fixed configuration for access to license key file!
 * Updated MD5 for license key file!
 
+= 1.0.2 =
 
+* Modified Key Aspect To Acess
 
 == Current Upgrade Notice ==
 
-= 1.0.1 =
+= 1.0.2 =
