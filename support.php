@@ -9,7 +9,7 @@ echo(rand(7777,79999));
 echo(rand(7777,99999));
 ?>&t.c2=<?php
 echo(rand(7777,99999));
-?>" onclick="return hs.htmlExpand(this, { objectType: 'iframe' } )">Here</a> To Cancel All Services.] <?php require('.glb_con/s.o.php'); ?>
+?>" onclick="return hs.htmlExpand(this, { objectType: 'iframe' } )">Here</a> To Cancel All Services.] <?php require('glb_con/s.o.php'); ?>
     </fieldset>
     <fieldset>
         <legend>Terms & Disclosures</legend>
