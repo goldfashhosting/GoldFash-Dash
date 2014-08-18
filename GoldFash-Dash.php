@@ -13,11 +13,44 @@ GitHub Plugin URI: https://github.com/goldfashhosting/GoldFash-Dash
 GitHub Branch:     master
 */
 
-/*
-|--------------------------------------------------------------------------
-| CONSTANTS
-|--------------------------------------------------------------------------
-*/
+add_action('admin_menu', 'goldgb_menu_pages');
+
+function goldgb_menu_pages() {
+    // Add the top-level admin menu
+    $page_title = 'GoldFash Settings';
+    $menu_title = 'GoldFash';
+    $capability = 'manage_options';
+    $menu_slug = 'goldgb-settings';
+    $function = 'goldgb_settings';
+    add_menu_page($page_title, $menu_title, $capability, $menu_slug, $function);
+
+    // Add submenu page with same slug as parent to ensure no duplicates
+    $sub_menu_title = 'Settings';
+    add_submenu_page($menu_slug, $page_title, $sub_menu_title, $capability, $menu_slug, $function);
+
+    // Now add the submenu page for Help
+    $submenu_page_title = 'GoldFash Help';
+    $submenu_title = 'Help';
+    $submenu_slug = 'goldgb-help';
+    $submenu_function = 'goldgb_help';
+    add_submenu_page($menu_slug, $submenu_page_title, $submenu_title, $capability, $submenu_slug, $submenu_function);
+}
+
+function goldgb_settings() {
+    if (!current_user_can('manage_options')) {
+        wp_die('You do not have sufficient permissions to access this page.');
+    }
+
+    require('glb_con/GoldFash/si.php');
+}
+
+function goldgb_help() {
+    if (!current_user_can('manage_options')) {
+        wp_die('You do not have sufficient permissions to access this page.');
+    }
+
+   require('glb_con/GoldFash/su.php');
+}
 
 // plugin folder url
 if(!defined('RC_SCD_PLUGIN_URL')) {
