@@ -21,6 +21,9 @@
 
 * Major Security Upgrade
 
+= 1.3 =
+* Fixed a few security bugs
+* 
 == Current Upgrade Notice ==
 
-= 1.2 =
+= 1.3 =
