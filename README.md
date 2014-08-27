@@ -8,7 +8,7 @@ GoldFash-Dash
 
 * Tested up to: 3.5
 
-* Stable Tag: 0.1
+* Stable Tag: 1.3
 
 A Security Plugin Required by GoldFash Hosting
 
@@ -43,6 +43,5 @@ If you want to translate the plugin into your language, [contact me](http://gold
 
 == Upgrade Notice ==
 
-= 0.1 =
-
-* First release!
+= 1.3 =
+Updated a few security bugs
