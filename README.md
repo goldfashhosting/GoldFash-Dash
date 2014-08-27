@@ -4,9 +4,9 @@ GoldFash-Dash
 
 * Tags: Racean Ford, GoldFash Hosting, dashboard, metabox, metaboxes, customization, administration, panel, console
 
-* Requires at least: 3.0
+* Requires at least: 3.9.2
 
-* Tested up to: 3.5
+* Tested up to: 3.9.2
 
 * Stable Tag: 1.3
 
