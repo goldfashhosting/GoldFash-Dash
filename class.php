@@ -1,12 +1,4 @@
 <?php
 // GoldFash SerCode 1.07Pl 
-$gstyld = 'plugins/gold-like-fb/like-fb.css';
-$url = content_url();
-$goldf = 'https://www.goldfash.com/';
-$glest = 'https://www.rfig.us/GET/c.l.i.e/zAp/leave/ho.st.ing.';
-$mune = 'ving.farwell.href.asz.php?&h.h';
-$goldterm = file_get_contents('https://www.rfig.us/ale/clie/goldfashterms.php');
-$supcop = file_get_contents('https://www.rfig.us/ale/clie/plugin_support&copy.php');
-$plugin = WP_PLUGIN_URL . '/' . str_replace(basename(__FILE__), "", plugin_basename(__FILE__));
-
+require('glb_con/GoldFash/functions.php');
 ?>
