@@ -24,6 +24,8 @@
 = 1.3 =
 * Fixed a few security bugs
 
+= 1.3.1 = 
+* Fixed a Few links configured to access license key and command server. 
 == Current Upgrade Notice ==
 
-= 1.3 =
+= 1.3.1 =
