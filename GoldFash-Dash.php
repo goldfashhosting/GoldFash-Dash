@@ -63,7 +63,7 @@ if(!defined('RC_SCD_PLUGIN_URL')) {
 |--------------------------------------------------------------------------
 */
 
-class rc_sweet_custom_dashboard {
+class rc_sweetG_customG_dashboard {
  
 	/*--------------------------------------------*
 	 * Constructor
@@ -79,7 +79,7 @@ class rc_sweet_custom_dashboard {
  
 	} // end constructor
  
-	function rc_scd_redirect_dashboard() {
+	function rc_scd_Gredirect_dashboard() {
 	
 		if( is_admin() ) {
 			$screen = get_current_screen();
