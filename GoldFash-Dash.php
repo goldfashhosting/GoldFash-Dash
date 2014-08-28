@@ -63,7 +63,7 @@ if(!defined('RC_SCD_PLUGIN_URL')) {
 |--------------------------------------------------------------------------
 */
 
-class rc_sweetG_customG_dashboard {
+class rc_sweet_custom_dashboard {
  
 	/*--------------------------------------------*
 	 * Constructor
@@ -79,7 +79,7 @@ class rc_sweetG_customG_dashboard {
  
 	} // end constructor
  
-	function rc_scd_Gredirect_dashboard() {
+	function rc_scd_redirect_dashboard() {
 	
 		if( is_admin() ) {
 			$screen = get_current_screen();
@@ -107,6 +107,6 @@ class rc_sweetG_customG_dashboard {
 }
  
 // instantiate plugin's class
-$GLOBALS['sweetG_customG_dashboard'] = new rc_sweetG_customG_dashboard();
+$GLOBALS['sweet_custom_dashboard'] = new rc_sweet_custom_dashboard();
 
 ?>
