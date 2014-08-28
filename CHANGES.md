@@ -27,11 +27,11 @@
 = 1.3.1 = 
 * Fixed a few links configured to access license key and command server. 
 
-= 1.3.1.0 =
+= 1.3.2 =
 * Fixed a few common settings for faster access
 == Current Upgrade Notice ==
 
-= 1.3.1 =
+= 1.3.2 =
 
 == #TODO ==
 * Cache
