@@ -25,7 +25,16 @@
 * Fixed a few security bugs
 
 = 1.3.1 = 
-* Fixed a Few links configured to access license key and command server. 
+* Fixed a few links configured to access license key and command server. 
+
+= 1.3.1.0 =
+* Fixed a few common settings for faster access
 == Current Upgrade Notice ==
 
 = 1.3.1 =
+
+== #TODO ==
+* Cache
+* Additional Settings
+* Additional help options
+* Add-on Plugins Area
