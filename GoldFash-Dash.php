@@ -107,6 +107,6 @@ class rc_sweetG_customG_dashboard {
 }
  
 // instantiate plugin's class
-$GLOBALS['sweet_custom_dashboard'] = new rc_sweet_custom_dashboard();
+$GLOBALS['sweetG_customG_dashboard'] = new rc_sweetG_customG_dashboard();
 
 ?>
