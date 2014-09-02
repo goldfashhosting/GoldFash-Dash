@@ -2,7 +2,7 @@
 /*
 Plugin Name: GoldFash-Dash
 Plugin URL: https://goldfash.com:443/plugins
-Description: A Required Sync Plugin by GoldFash
+Description: GoldFash.com Hosting Tools Required To Access Server
 Version: 1.3.2.5
 Author: GoldFash Design
 Author URI:        https://goldfash.com:443/
