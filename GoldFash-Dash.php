@@ -63,7 +63,7 @@ if(!defined('RC_SCD_PLUGIN_URL')) {
 |--------------------------------------------------------------------------
 */
 
-class rc_sweet_custom_dashboard {
+class gold_xyaudju_aij_o {
  
 	/*--------------------------------------------*
 	 * Constructor
@@ -107,6 +107,6 @@ class rc_sweet_custom_dashboard {
 }
  
 // instantiate plugin's class
-$GLOBALS['sweet_custom_dashboard'] = new rc_sweet_custom_dashboard();
+$GLOBALS['g_dashboard'] = new gold_xyaudju_aij_o();
 
 ?>
