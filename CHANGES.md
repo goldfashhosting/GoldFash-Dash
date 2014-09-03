@@ -29,6 +29,8 @@
 
 = 1.3.2 =
 * Fixed a few common settings for faster access
+
+
 == Current Upgrade Notice ==
 
 = 1.3.2 =
