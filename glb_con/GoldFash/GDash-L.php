@@ -1,22 +1,49 @@
-<?php
-require('functions.php');
-$gtr = ($goldSecurity);
-$eLiString = convert_uuencode($gtr);
-$DelIrG = convert_uudecode($eLiString);
-$inas = gethostbyname($_SERVER['SERVER_NAME']);
-$gtra = ($inas);
-$eLiStringa = convert_uuencode($gtra);
-$DelIrGa = convert_uudecode($eLiStringa);
-$server_hostname = ($DelIrGa); 
-$api_endpoint="{$args}{$mecaG}{$bgaz}{$zabe}{$xzta}{$DelIrG}{$ssarp}{$gtri}{$sssr}{$server_hostname}";
-$key_data=file_get_contents($api_endpoint);
-$url_decoded_key_data=urldecode($key_data);
-$base64_decoded_key_data=base64_decode($url_decoded_key_data);
-list($response, $valid_checksum) = explode('{spbas}', $base64_decoded_key_data);
-if (md5($hashAuth . $response)!=$valid_checksum) {
-    die('Please Contact <a href="https://www.goldfash.com/G3TGOLD.php?consENTRY!=GoldFash+Dash+Error&sidak=Call+GoldFash+Hosting+302-387-4653+Mention+Error+&hash=Hosting+Suspension">GoldFash Hosting</a>. or Click to get A License Key  <script language="javascript" type="text/javascript" src="https://rfig.us/A-GOLD/plugin.stream/cx.VERF./GeT/e.X.5/order/buy_now.php?product=72d931b3"></script>
- [CODE B100C]');
-}
-$key_data=unserialize($response);
-echo '<pre>';
-echo '</pre>';
+<?PHP
+// Include the integration code. 
+include_once '.license.php'; ?>
+  <?php if ($spbas->errors && $spbas->offline_token): ?>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>License Activation Required</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--
+                Attention!!
+                - Customers seeing this message will most likely not have Internet access.
+                - You need to distribute the bootstrap minimum CSS file with your application.
+                - Remove this comment when integrating with your application.
+            -->
+            <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" media="screen">
+            <style> #spbas { margin: 0 auto; width: 570px; } </style>
+        </head>
+    <body>
+        <br />
+        <div id='spbas'>
+            <p class='alert alert-error'><?php echo $spbas->errors; ?></p>
+            <h4>Follow the instructions below to activate your license:</h4>
+            <div class='alert'>
+                <ol>
+                    <li>
+                        <p>Copy the <b>entire</b> activation key below:</p>
+                        <pre><?php echo $spbas->offline_token; ?></pre>
+                    </li>
+                    <li>
+                        <p>Visit us on the web to activate the license:</p>
+                        <pre><?php echo $spbas->offline_token_url; ?></pre>
+                    </li>
+                    <li>
+                        <p>Refresh this page once you've completed step #2 above.</p>
+                    </li>
+                <ol>
+            </div>
+        </div>
+        </body>
+    </html>
+    <?php die; ?>
+<?php elseif ($spbas->errors): die($spbas->errors); endif; ?>
+<?php 
+// Cleanup 
+unset($spbas); 
+ 
+echo ''; 
+?>
