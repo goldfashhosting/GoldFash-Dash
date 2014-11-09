@@ -18,9 +18,12 @@ echo $supcop;
 ?><?php
 echo $goldterm;
 ?><ul>
-            <li>Account Security Code</li>
+            <li>Account License Key</li>
             <li><?php echo '<pre>';
 print_r($goldSecurity);
+echo '</pre>'; ?></li><li>Secret Code</li>
+<li><?php echo '<pre>';
+print_r($hashAuth);
 echo '</pre>'; ?></li>
         </ul>
     </fieldset>
