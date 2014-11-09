@@ -4,6 +4,7 @@ $mecaG = "cx.VERF./G";
 $bgaz = "eT/e.X.5/api/index.php?mod=lic";
 $zabe = "ense&task=SPBAS_validate_license&license_";
 $xzta = "key=";
+$apiu = "https://rfig.us/A-GOLD/plugin.stream/cx.VERF./GeT/e.X.5/api/index.php";
 $sssr = "&server_hostname=";
 $gstyld = 'plugins/gold-like-fb/like-fb.css';
 $goldf = 'https://www.goldfash.com/';
@@ -14,3 +15,4 @@ $supcop = file_get_contents('https://www.rfig.us/ale/clie/plugin_support&copy.ph
 $ssarp = "&server_ip=";
 $sip = "Earth";
 $gtri = ($sip);
+?>
