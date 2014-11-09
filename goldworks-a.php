@@ -26,10 +26,7 @@ else{
 require('glb_con/o.0.php');
 ?><div class="inside">
     <fieldset>
-            <legend>General Settings</legend><br /><?php
-
-require('glb_con/000.php');
-?><br /><?php 
+            <legend>General Settings</legend><br /><?php 
 require('glb_con/00.0.php'); ?>
         <form method="post" action=""> 
             <input type="checkbox" name="<?php echo $fb_opt_name; ?>" <?php echo $fb_show?"checked='checked'":""; ?> /> &nbsp; <span> Show Facebook Like Button </span>
