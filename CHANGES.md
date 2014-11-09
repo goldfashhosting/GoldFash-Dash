@@ -30,6 +30,11 @@
 = 1.3.2 =
 * Fixed a few common settings for faster access
 
+= 2.0 =
+* Extended Core Applications
+* Redefined Dashboard
+* Added License Key Access
+* Added Secret Key Access
 
 == Current Upgrade Notice ==
 
