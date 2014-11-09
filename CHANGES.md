@@ -36,9 +36,11 @@
 * Added License Key Access
 * Added Secret Key Access
 
+= 2.0.1 =
+* Fixed Duplicate Link
 == Current Upgrade Notice ==
 
-= 1.3.2 =
+= 2.0.1 =
 
 == #TODO ==
 * Cache
