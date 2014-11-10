@@ -38,9 +38,13 @@
 
 = 2.0.1 =
 * Fixed Duplicate Link
+
+= 2.0.1.1 = 
+* Fixed Minor Template Issue
+
 == Current Upgrade Notice ==
 
-= 2.0.1 =
+= 2.0.1.1 =
 
 == #TODO ==
 * Cache
