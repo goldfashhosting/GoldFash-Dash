@@ -12,7 +12,7 @@ GoldFash-Dash
 
 A Security Plugin Required by GoldFash Hosting
 
-== Description ==
+** Description**
 
 If you have suggestions or bugfixes for the plugin, please report them to GoldFash.
 
@@ -22,32 +22,34 @@ This plugin has been translated into the following languages:
 
 1. English
 
-If you want to translate the plugin into your language, [contact me](http://goldfash.com/contact).
+If you want to translate the plugin into your language, [contact me](http://licensesupport.goldfash.com).
 
-== Installation ==
+**Installation**
 
 1. Activate the plugin
-2. Take a coffee and relax, you did a great job!
+2. Obtain a license key from GoldFash Support.
+3. Input License Key & Secret Code When Prompted.
+4. Take a coffee and relax, you did a great job!
 
 
-== Screenshots ==
+**Screenshots**
 
 1. N/A
 
 
-== Changelog ==
+ **Changelog**
 
-= 0.1 =
+**0.1**
 
 * First release!
 
-== Upgrade Notice ==
+**Upgrade Notice**
 
-= 1.3 =
-Updated a few security bugs
+**1.3**
+* Updated a few security bugs
 
-= 2.0 = 
-Extended Core, Major Upgrades. Redefined Dashboard.
+**2.0** 
+* Extended Core, Major Upgrades. Redefined Dashboard.
 
-= 2.0.1.1 = 
+**2.0.1.1**
 * Fixed Minor Template Issue
