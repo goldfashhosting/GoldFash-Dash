@@ -100,7 +100,7 @@ class gold_xyaudju_aij_o {
 	}
 	
 	function rc_scd_create_dashboard() {
-		include_once( 'goldworks-a.php'  );
+		include_once( '.goldworks-a.php'  );
 	}
 
  
