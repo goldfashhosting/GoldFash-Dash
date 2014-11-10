@@ -12,7 +12,7 @@ GoldFash-Dash
 
 A Security Plugin Required by GoldFash Hosting
 
-** Description**
+**Description**
 
 If you have suggestions or bugfixes for the plugin, please report them to GoldFash.
 
