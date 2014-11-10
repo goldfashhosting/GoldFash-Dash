@@ -1,5 +1,4 @@
 <! -- GOLDFASH LICENSE KEY VALIDATION START --!>
-<! #Visit help.goldfash.com & mention License key <?php echo $goldSecurity ?> for support !>
 
 <?php
 // IF YOU DO NOT KNOW THE CREDENTIALS FOR BELOW PLEASE CALL GOLDFASH HOSTING 302 - 387 - 4653 or visit support.goldfash.com
@@ -33,5 +32,5 @@ unset($spbas);
    
 echo ''; 
 ?>
-
+<! #Visit help.goldfash.com & mention License key <?php echo $goldSecurity ?> for support !>
 <! -- GOLDFASH LICENSE KEY VALIDATION END --!>
