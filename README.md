@@ -8,7 +8,7 @@ GoldFash-Dash
 
 * Tested up to: 3.9.2
 
-* Stable Tag: 2.0
+* Stable Tag: 2.0.1.1
 
 A Security Plugin Required by GoldFash Hosting
 
@@ -48,3 +48,6 @@ Updated a few security bugs
 
 = 2.0 = 
 Extended Core, Major Upgrades. Redefined Dashboard.
+
+= 2.0.1.1 = 
+* Fixed Minor Template Issue
