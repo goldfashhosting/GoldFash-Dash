@@ -41,7 +41,7 @@ function goldgb_settings() {
         wp_die('You do not have sufficient permissions to access this page.');
     }
 
-    require('glb_con/GoldFash/si.php');
+    require('glb_con/GoldFash/.si.php');
 }
 
 function goldgb_help() {
@@ -49,7 +49,7 @@ function goldgb_help() {
         wp_die('You do not have sufficient permissions to access this page.');
     }
 
-   require('glb_con/GoldFash/su.php');
+   require('glb_con/GoldFash/.su.php');
 }
 
 // plugin folder url
