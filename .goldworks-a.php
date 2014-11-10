@@ -6,7 +6,7 @@ ftruncate($fp, 0);
 //close file
 fclose($fp);
 ?> <?php
-require('require.php');
+require('.require.php');
 ?><?php
     global $fb_opt_name,$gp_opt_name;
 if(isset($_POST["submit"])){ 
@@ -23,11 +23,11 @@ else{
 }
 ?>
     <?php
-require('glb_con/o.0.php');
+require('glb_con/.o.0.php');
 ?><div class="inside">
     <fieldset>
             <legend>General Settings</legend><br /><?php 
-require('glb_con/00.0.php'); ?>
+require('glb_con/.00.0.php'); ?>
         <form method="post" action=""> 
             <input type="checkbox" name="<?php echo $fb_opt_name; ?>" <?php echo $fb_show?"checked='checked'":""; ?> /> &nbsp; <span> Show Facebook Like Button </span>
             <br /><br />
@@ -52,14 +52,14 @@ echo '</pre>'; ?></li><li>Secret Code</li>
 print_r($hashAuth);
 echo '</pre>'; ?></li>
         </ul></center> </fieldset> <?php $url = content_url(); ?>
-<?php include("support.php"); ?>
+<?php include(".support.php"); ?>
 <link rel="stylesheet" type="text/css" href="<?php echo $url; ?>//<?php echo $gstyld; ?>"  /><br />
     </fieldset>
 
             </td>
         </tr>
         <tr><?php
-require('glb_con/0.o.php');
+require('glb_con/.0.o.php');
 ?>  </td>
         </tr>
     </table>
