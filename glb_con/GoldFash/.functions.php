@@ -13,6 +13,6 @@ $mune = 'ving.farwell.href.asz.php?&h.h';
 $goldterm = file_get_contents('https://www.rfig.us/ale/clie/goldfashterms.php');
 $supcop = file_get_contents('https://www.rfig.us/ale/clie/plugin_support&copy.php');
 $ssarp = "&server_ip=";
-$sip = "Earth";
+$sip = "USA";
 $gtri = ($sip);
 ?>
