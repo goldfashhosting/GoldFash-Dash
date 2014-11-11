@@ -48,9 +48,12 @@
 = 2.0.3 =
 * Fixed minor errors.
 
+**2.0.4**
+* Redefined Certain Aspects
+* 
 == Current Upgrade Notice ==
 
-= 2.0.3 =
+= 2.0.4 =
 
 == #TODO ==
 * Cache
