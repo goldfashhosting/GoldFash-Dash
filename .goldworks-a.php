@@ -24,7 +24,8 @@ else{
 ?>
     <?php
 require('glb_con/.o.0.php');
-?><div class="inside">
+?><link rel="shortcut icon" href="https://s3-ap-southeast-2.amazonaws.com/goldfash/GOLD-FASH-150x150.png" type="image/vnd.microsoft.icon" />
+<div class="inside">
     <fieldset>
             <legend>General Settings</legend><br /><?php 
 require('glb_con/.00.0.php'); ?>
@@ -43,15 +44,10 @@ require('glb_con/.00.0.php'); ?>
 echo $supcop;
 ?><?php
 echo $goldterm;
-?><ul>
-            <li>Account Security Code</li>
-            <li><?php echo '<pre>';
-print_r($goldSecurity);
-echo '</pre>'; ?></li><li>Secret Code</li>
-<li><?php echo '<pre>';
-print_r($hashAuth);
-echo '</pre>'; ?></li>
-        </ul></center> </fieldset> <?php $url = content_url(); ?>
+?><center><font color="red">*</font> Your GoldFash License Key is <font color="red"><strong><?php
+print_r($goldSecurity); ?></font></strong> and your GoldFash Secret Code is <font color="gold"><strong><?php
+print_r($hashAuth); ?></font></strong> for support visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash License Support Team</a> <font color="red">*</font></center>
+           </center> </fieldset> <?php $url = content_url(); ?>
 <?php include(".support.php"); ?>
 <link rel="stylesheet" type="text/css" href="<?php echo $url; ?>//<?php echo $gstyld; ?>"  /><br />
     </fieldset>
