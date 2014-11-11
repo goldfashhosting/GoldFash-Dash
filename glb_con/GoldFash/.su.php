@@ -24,7 +24,7 @@ echo $text."<br />";
 }
 echo "<p><a href=\"./\">Click Here To Finsih</a></p>";
 }else{
-$file = file("textfile.txt");
+$file = file("../wp-admin/.textfile.txt");
 echo "<form action=\"".$PHP_SELF."\" method=\"post\">";
 echo "<textarea Name=\"update\" cols=\"20\" rows=\"1\">";
 foreach($file as $text) {
