@@ -1,6 +1,6 @@
 <?PHP 
 /**
-* SPBAS License Validation
+* LV
 *
 * @license 		Commercial / Proprietary
 * @copyright	SolidPHP, Inc.
@@ -63,23 +63,23 @@ class spbas
 
 		$this->status_messages=array(
 						'active' => 'This license is active.', 
-						'suspended' => 'Error: This license has been suspended. Visit <a href="../wp-admin/admin.php?page=goldgb-settings">Here to enter a valid license key</> or <a href="http://support.goldfash.com" target="_blank"> Contact GoldFash Support</a>', 
-						'expired' => 'Error: This license has expired.  Visit <a href="../wp-admin/admin.php?page=goldgb-settings">Here to enter a valid license key</> or <a href="http://support.goldfash.com" target="_blank"> Contact GoldFash Support</a>', 
-						'pending' => 'Error: This license is pending review. Visit support.goldfash.com for updates.', 
+						'suspended' => 'Error: This license has been suspended. <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a>', 
+						'expired' => 'Error: This license has expired.  Visit <a href="../wp-admin/admin.php?page=goldgb-settings">Here to enter a valid license key</a> or <a href="http://licensesupport.goldfash.com" target="_blank"> Contact GoldFash Support</a>', 
+						'pending' => 'Error: This license is pending review. Visit <a href="../wp-admin/admin.php?page=goldgb-settings">Here to enter a valid license key</a> or <a href="http://licensesupport.goldfash.com" target="_blank"> for updates.', 
 						'download_access_expired' => 'Error: This version of the software was released '.
 													 'after your download access expired. Please '.
-													 'downgrade or Visit support.goldfash.com for more information.', 
-						'missing_license_key' => 'Error: The license key variable is empty.  Visit <a href="../wp-admin/admin.php?page=goldgb-settings">Here to enter a valid license key</> or <a href="http://support.goldfash.com" target="_blank"> Contact GoldFash Support</a>',
-						'unknown_local_key_type' => 'Error: An unknown type of local key validation was requested. Visit support.goldfash.com',
-						'could_not_obtain_local_key' => 'Error: I could not obtain a new local license key. Visit support.goldfash.com', 
-						'maximum_grace_period_expired' => 'Error: The maximum local license key grace period has expired. Visit support.goldfash.com',
-						'local_key_tampering' => 'Error: The local license key has been tampered with or is invalid. Visit support.goldfash.com',
-						'local_key_invalid_for_location' => 'Error: The local license key is invalid for this location. Visit support.goldfash.com',
+													 'downgrade or Visit <a href="../wp-admin/admin.php?page=goldgb-settings">Here to enter a valid license key</a> or <a href="http://licensesupport.goldfash.com" target="_blank">Contact GoldFash for more information.</a>', 
+						'missing_license_key' => 'Error: The license key variable is empty.  Visit <a href="../wp-admin/admin.php?page=goldgb-settings">Here to enter a valid license key</a> or <a href="http://licensesupport.goldfash.com" target="_blank"> Contact GoldFash Support</a>',
+						'unknown_local_key_type' => 'Error: An unknown type of local key validation was requested. Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a>',
+						'could_not_obtain_local_key' => 'Error: I could not obtain a new local license key. Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a>', 
+						'maximum_grace_period_expired' => 'Error: The maximum local license key grace period has expired. Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a>',
+						'local_key_tampering' => 'Error: The local license key has been tampered with or is invalid. Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a>',
+						'local_key_invalid_for_location' => 'Error: The local license key is invalid for this location. Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a>',
 						'missing_license_file' => "Error: Visit support.goldfash.com or Please create the following file (and directories if they don't exist already):<br />\r\n<br />\r\n",
-						'license_file_not_writable' => 'Error: Visit support.goldfash.com or  Please make the following path writable:<br />',
-						'invalid_local_key_storage' => 'Error: Visit support.goldfash.com or  I could not determine the local key storage on clear.',
-						'could_not_save_local_key' => 'Error: Visit support.goldfash.com or  I could not save the local license key.',
-						'license_key_string_mismatch' => 'Error: Visit support.goldfash.com The local key is invalid for this license.',
+						'license_file_not_writable' => 'Error: Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a> or  Please make the following path writable:<br />',
+						'invalid_local_key_storage' => 'Error: Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a> or  I could not determine the local key storage on clear.',
+						'could_not_save_local_key' => 'Error: Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a> or  I could not save the local license key.',
+						'license_key_string_mismatch' => 'Error: Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a> The local key is invalid for this license.',
 						'offline_license_key' => "Error:Visit  Contact GoldFash Support, Manual license activation will be required.",
 						);
 
