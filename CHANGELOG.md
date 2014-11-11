@@ -42,9 +42,12 @@
 = 2.0.1.1 = 
 * Fixed Minor Template Issue
 
+= 2.0.2 =
+* Fixed errors that arrise on different platforms
+
 == Current Upgrade Notice ==
 
-= 2.0.1.1 =
+= 2.0.2 =
 
 == #TODO ==
 * Cache
