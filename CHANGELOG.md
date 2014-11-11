@@ -45,9 +45,12 @@
 = 2.0.2 =
 * Fixed errors that arrise on different platforms
 
+= 2.0.3 =
+* Fixed minor errors.
+
 == Current Upgrade Notice ==
 
-= 2.0.2 =
+= 2.0.3 =
 
 == #TODO ==
 * Cache
