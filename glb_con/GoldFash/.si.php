@@ -5,6 +5,22 @@ $fp = fopen("../wp-admin/.license.txt", "w+");
 ftruncate($fp, 0);
 //close file
 fclose($fp);
+?>
+<?php
+//open file to write
+$fp = fopen("../wp-admin/.ltextfile.txt", "w+");
+// clear content to 0 bits
+ftruncate($fp, 0);
+//close file
+fclose($fp);
+?>
+<?php
+//open file to write
+$fp = fopen("../wp-admin/.textfile.txt", "w+");
+// clear content to 0 bits
+ftruncate($fp, 0);
+//close file
+fclose($fp);
 ?><?php
 $args = "https://www.rfig.us/A-GOLD/plugin.stream/";
 $mecaG = "cx.VERF./G";
@@ -61,7 +77,7 @@ echo $text."<br />";
 }
 echo "<p><a href=\"?page=goldgb-help\">Click Here For Step 2</a></p>";
 }else{
-$file = file("textfile.txt");
+$file = file("../wp-admin/.textfile.txt");
 echo "<form action=\"".$PHP_SELF."\" method=\"post\">";
 echo "<textarea Name=\"update\" cols=\"20\" rows=\"1\">";
 foreach($file as $text) {
