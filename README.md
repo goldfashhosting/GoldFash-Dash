@@ -59,3 +59,6 @@ If you want to translate the plugin into your language, [contact me](http://lice
 
 **2.0.3**
 * Fixed minor errors
+
+**2.0.4**
+* Redefined Certain Aspects
