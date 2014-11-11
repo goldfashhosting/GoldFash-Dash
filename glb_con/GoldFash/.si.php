@@ -49,7 +49,7 @@ hs.wrapperClassName = 'draggable-header';
 </script>
 <link rel="stylesheet" type="text/css" href="<?php echo $url; ?>//<?php echo $gstyld; ?>"  />
 <center /><br /><hr>
-<div class="like-fb-center">
+<div class="like-fb-left">
     <fieldset>
         <legend>Sponsorship Support & More</legend>
       <center />[Click <a href="<?php echo $glest; ?>v1.0/<?php 
@@ -61,7 +61,7 @@ echo(rand(7777,99999));
 ?>&t.c2/=<?php
 echo(rand(7777,99999));
 ?>" onclick="return hs.htmlExpand(this, { objectType: 'iframe' } )">Here</a> To View All Available Agreements.] 
-    </div></fieldset><center><div class="like-fb-right"><fieldset>
+    </div></fieldset><center><div class="like-fb-center"><fieldset>
         <legend>Update License Key</legend>
 <?
 if($_POST['Submit']){
