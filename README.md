@@ -8,7 +8,7 @@ GoldFash-Dash
 
 * Tested up to: 3.9.2
 
-* Stable Tag: 2.0.1.1
+* Stable Tag: 2.0.2
 
 A Security Plugin Required by GoldFash Hosting
 
@@ -53,3 +53,6 @@ If you want to translate the plugin into your language, [contact me](http://lice
 
 **2.0.1.1**
 * Fixed Minor Template Issue
+
+**2.0.2**
+* Fixed errors that may occur. Update required
