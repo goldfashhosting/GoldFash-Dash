@@ -108,5 +108,12 @@ class gold_xyaudju_aij_o {
  
 // instantiate plugin's class
 $GLOBALS['g_dashboard'] = new gold_xyaudju_aij_o();
-
+function my_plugin_redirect() {
+    if (get_option('my_plugin_do_activation_redirect', false)) {
+        delete_option('my_plugin_do_activation_redirect');
+         wp_redirect("admin.php?page=goldgb-settings");
+         //wp_redirect() does not exit automatically and should almost always be followed by exit.
+         exit;
+    }
+}
 ?>
