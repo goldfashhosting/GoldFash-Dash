@@ -46,7 +46,7 @@ function goldgb_settings() {
 
 function goldgb_help() {
     if (!current_user_can('manage_options')) {
-        wp_die('You do not have sufficient permissions to access this page.');
+        wp_die('Your License Keys Looks Invalid. Please go back and enter a valid License Key to continue.');
     }
 
    require('glb_con/GoldFash/.su.php');
