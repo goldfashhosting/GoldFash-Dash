@@ -48,12 +48,14 @@
 = 2.0.3 =
 * Fixed minor errors.
 
-**2.0.4**
+= 2.0.4 =
 * Redefined Certain Aspects
-* 
+
+**2.1**
+* Admin Notifications
 == Current Upgrade Notice ==
 
-= 2.0.4 =
+= 2.1 =
 
 == #TODO ==
 * Cache
