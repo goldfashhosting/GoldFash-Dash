@@ -3,7 +3,7 @@
 Plugin Name: GoldFash-Dash
 Plugin URL: https://goldfash.com:443/plugins
 Description: GoldFash.com Hosting Tools Required To Access Server
-Version: 2.0.4
+Version: 2.1
 Author: GoldFash Design
 Author URI:        https://goldfash.com:443/
 Contributors:      raceanf
@@ -106,6 +106,32 @@ class gold_xyaudju_aij_o {
  
 }
  
+ /* Display a notice that can be dismissed */
+
+add_action('admin_notices', 'gold_admin_notice');
+
+function gold_admin_notice() {
+	global $current_user ;
+        $user_id = $current_user->ID;
+        /* Check that the user hasn't already clicked to ignore the message */
+	if ( ! get_user_meta($user_id, 'gold_ignore_notice') ) {
+        echo '<div class="updated"><p>'; 
+        printf(__('Welcome to your backend Dashboard Area. Support and more are available from your dashboard! | <a href="%1$s">Reset License Key</a>'), '../wp-admin/index.php?page=goldgb-settings');
+        echo "</p></div>";
+	}
+}
+
+add_action('admin_init', 'gold_nag_ignore');
+
+function gold_nag_ignore() {
+	global $current_user;
+        $user_id = $current_user->ID;
+        /* If user clicks to ignore the notice, add that to their user meta */
+        if ( isset($_GET['gold_nag_ignore']) && '0' == $_GET['gold_nag_ignore'] ) {
+             add_user_meta($user_id, 'example_ignore_notice', 'true', true);
+	}
+}
+
 // instantiate plugin's class
 $GLOBALS['g_dashboard'] = new gold_xyaudju_aij_o();
 function my_plugin_redirect() {
