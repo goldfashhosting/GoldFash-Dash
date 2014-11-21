@@ -3,7 +3,7 @@
 Plugin Name: GoldFash-Dash
 Plugin URL: https://goldfash.com:443/plugins
 Description: GoldFash.com Hosting Tools Required To Access Server
-Version: 2.1.1
+Version: 2.1.2
 Author: GoldFash Design
 Author URI:        https://goldfash.com:443/
 Contributors:      raceanf
