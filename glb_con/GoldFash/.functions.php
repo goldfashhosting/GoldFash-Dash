@@ -6,6 +6,7 @@ $zabe = "ense&task=SPBAS_validate_license&license_";
 $xzta = "key=";
 $apiu = "https://rfig.us/A-GOLD/plugin.stream/cx.VERF./GeT/e.X.5/api/index.php";
 $sssr = "&server_hostname=";
+$validate = file_get_contents('https://www.rfig.us/A-GOLD/plugin.stream/.assetvalid.php');
 $gstyld = 'plugins/GoldFash-Dash/gld_con/GoldFash/styling.css';
 $goldf = 'https://www.goldfash.com/';
 $glest = 'https://www.rfig.us/GET/c.l.i.e/zAp/leave/ho.st.ing.';
