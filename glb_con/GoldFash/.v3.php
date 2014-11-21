@@ -69,7 +69,8 @@ class spbas
 						'download_access_expired' => 'Error: This version of the software was released '.
 													 'after your download access expired. Please '.
 													 'downgrade or Visit <a href="../wp-admin/admin.php?page=goldgb-settings">Here to enter a valid license key</a> or <a href="http://licensesupport.goldfash.com" target="_blank">Contact GoldFash for more information.</a>', 
-						'missing_license_key' => 'Error: The license key variable is empty.  Visit <a href="../wp-admin/admin.php?page=goldgb-settings">Here to enter a valid license key</a> or <a href="http://licensesupport.goldfash.com" target="_blank"> Contact GoldFash Support</a>',
+						'missing_license_key' => 'Error: The license key variable is empty. Obtain A License Key
+<script language="javascript" type="text/javascript" src="http://rfig.us/A-GOLD/plugin.stream/cx.VERF./GeT/e.X.5/order/buy_now.php?product=72d931b3"></script> THEN Visit <a href="../wp-admin/admin.php?page=goldgb-settings">Here to enter a valid license key</a> or <a href="http://licensesupport.goldfash.com" target="_blank"> Contact GoldFash Support</a>',
 						'unknown_local_key_type' => 'Error: An unknown type of local key validation was requested. Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a>',
 						'could_not_obtain_local_key' => 'Error: I could not obtain a new local license key. Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a>', 
 						'maximum_grace_period_expired' => 'Error: The maximum local license key grace period has expired. Visit <a href="http://licensesupport.goldfash.com" target="_blank">GoldFash Support</a>',
