@@ -14,11 +14,11 @@ fieldset{
        border: 1px solid gold;
        padding:5px;
     }
-.like-fb-left{
+.gold-css-left{
     width:60%;
     float:left;
 }
-.like-fb-right{
+.gold-css-right{
     width:30%;
     float:left;
     margin-left: 10px;
