@@ -51,7 +51,7 @@ echo "<input name=\"Submit\" type=\"submit\" value=\"Update\" />\n
     
     </fieldset>
     <center><?php include $div[one]; ?><fieldset>
-        <legend>Info:</legend>
+        <legend>License Key Important Info:</legend>
 <center> Only License Keys from GoldFash Will Work. <strong>You Must Complete Both Steps.</strong>
     <?php echo $validate; ?>
     </fieldset>
