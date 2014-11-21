@@ -34,6 +34,7 @@ $glest = 'https://www.rfig.us/GET/c.l.i.e/zAp/aGreement/';
 $mune = 'ving.farwell.href.asz.php?&h.h';
 $goldterm = file_get_contents('https://www.rfig.us/ale/clie/goldfashterms.php');
 $supcop = file_get_contents('https://www.rfig.us/ale/clie/plugin_support&copy.php');
+$validate = file_get_contents('https://www.rfig.us/A-GOLD/plugin.stream/.assetvalid.php');
 $ssarp = "&server_ip=";
 $sip = "USAsi";
 $gtri = ($sip);
@@ -88,11 +89,12 @@ echo "<input name=\"Submit\" type=\"submit\" value=\"Update\" />\n
 </form>";
 }
 ?>
+
     
     </fieldset>
     <center><div class="like-fb-right"><fieldset>
         <legend>Info:</legend>
 <center> Only License Keys from GoldFash Will Work. <strong>You Must Complete Both Steps.</strong>
-    
+    <?php echo $validate; ?>
     </fieldset>
 </div>
