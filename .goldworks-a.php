@@ -6,7 +6,7 @@ ftruncate($fp, 0);
 //close file
 fclose($fp);
 ?> <?php
-require('glb_con/GoldFash/inc/.require.php');
+require('glb_con/GoldFash/.require.php');
 require('.bridge.php');
 ?><?php
     global $fb_opt_name,$gp_opt_name;
