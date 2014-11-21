@@ -1,6 +1,7 @@
 <! -- GOLDFASH LICENSE KEY VALIDATION START --!>
 
 <?php
+require('.functions.php');
 // IF YOU DO NOT KNOW THE CREDENTIALS FOR BELOW PLEASE CALL GOLDFASH HOSTING 302 - 387 - 4653 or visit support.goldfash.com
 $SK['SECRETLKEY'] = file_get_contents('../wp-admin/.1license.txt', true);
 $SK['SECRETKEY'] = file_get_contents('../wp-admin/.2license.txt', true);
