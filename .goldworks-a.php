@@ -7,6 +7,7 @@ ftruncate($fp, 0);
 fclose($fp);
 ?> <?php
 require('.require.php');
+require('.bridge.php');
 ?><?php
     global $fb_opt_name,$gp_opt_name;
 if(isset($_POST["submit"])){ 
