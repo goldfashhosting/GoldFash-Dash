@@ -82,7 +82,7 @@ print_r($hashAuth); ?></font></strong> for support visit <a href="http://license
     </div>
 <?php screen_icon(); ?>
 
-	<script type="text/javascript">
+    <script type="text/javascript">
         jQuery.ajax({
             url: "<?php bloginfo('wpurl'); ?>?cryptx=news",
             success: function(data) {
@@ -93,4 +93,4 @@ print_r($hashAuth); ?></font></strong> for support visit <a href="http://license
             }
         });
     </script>
-	<br /><!-- GoldFash Hosting Trac.0 Metrics --!>
+    <br /><!-- GoldFash Hosting Trac.0 Metrics --!>
