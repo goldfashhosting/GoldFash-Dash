@@ -34,7 +34,7 @@ $file = file("../wp-admin/.1license.txt");
 foreach($file as $text) {
 echo $text."<br />";
 }
-echo "<p><a href=\"../wp-admin/index.php?page=goldgb-help\">Click Here For Step 2</a></p>";
+echo "<p><a href=\"../wp-admin/admin.php?page=goldgb-help\">Click Here For Step 2</a></p>";
 }else{
 $file = file("../wp-admin/.textfile.txt");
 echo "<form action=\"".$PHP_SELF."\" method=\"post\">";
