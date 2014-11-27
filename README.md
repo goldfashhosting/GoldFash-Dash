@@ -8,7 +8,7 @@ GoldFash-Dash
 
 * Tested up to: 3.9.2
 
-* Stable Tag: 2.1
+* Stable Tag: 2.2.2
 
 A Security Plugin Required by GoldFash Hosting
 
@@ -65,3 +65,6 @@ If you want to translate the plugin into your language, [contact me](http://lice
 
 **2.1**
 * Admin Notifications 
+
+**2.2.2***
+* Encryption Added
