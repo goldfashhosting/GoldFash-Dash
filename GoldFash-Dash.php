@@ -100,7 +100,7 @@ class gold_xyaudju_aij_o {
 	}
 	
 	function rc_scd_create_dashboard() {
-		include_once( '.goldworks-a.php'  );
+		include_once( '.gold[UTILS].php'  );
 	}
 
  
@@ -116,7 +116,7 @@ function gold_admin_notice() {
         /* Check that the user hasn't already clicked to ignore the message */
 	if ( ! get_user_meta($user_id, 'gold_ignore_notice') ) {
         echo '<div class="updated"><p>'; 
-        printf(__('Welcome to your backend Dashboard Area. Support and more are available from your dashboard! | <a href="%1$s">Reset License Key</a>'), '../wp-admin/index.php?page=goldgb-settings');
+        printf(__('Welcome to your backend Dashboard Area. Support and more are available from your dashboard! | <a href="%1$s">Reset License Key</a>'), '../wp-admin/admin.php?page=goldgb-settings');
         echo "</p></div>";
 	}
 }
