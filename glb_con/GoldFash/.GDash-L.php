@@ -1,3 +1,5 @@
+<?php echo $highone; ?>
+<?php echo $hightwo; ?>
 <?PHP
 // Include the integration code. 
 include_once '.license.php'; ?>

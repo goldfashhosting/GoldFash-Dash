@@ -1,5 +1,29 @@
 <?php
-// Updates & Refreshes
-$_F=__FILE__;$_X='Pz48P3BocA0KLyoNCiAqICAgIFVwZDF0NXMgUGwzZzRuDQogKi8NCmYzbmN0NDJuIG15X2c0dGgzYl9wbDNnNG5fM3BkMXQ1cigpIHsNCgk0ZiAoICEgZjNuY3Q0Mm5fNXg0c3RzKCAnZzR0aDNiX3BsM2c0bl8zcGQxdDVyX3I1ZzRzdDVyJyApICkNCgkJcjV0M3JuIGYxbHM1Ow0KCWc0dGgzYl9wbDNnNG5fM3BkMXQ1cl9yNWc0c3Q1ciggMXJyMXkoDQoJCScyd241cicJPT4gJ2cybGRmMXNoaDJzdDRuZycsDQoJCSdyNXAyJwk9PiAnRzJsZEYxc2gtRDFzaCcsDQoJCSdzbDNnJwk9PiAnRzJsZEYxc2gtRDFzaC9HMmxkRjFzaC1EMXNoLnBocCcsIC8vIGQ1ZjEzbHRzIHQyIHRoNSByNXAyIHYxbDM1ICgncjVwMi9yNXAyLnBocCcpDQoJKSApOw0KfQ0KMWRkXzFjdDQybiggJ3BsM2c0bnNfbDIxZDVkJywgJ215X2c0dGgzYl9wbDNnNG5fM3BkMXQ1cicgKTsNCi8qDQogKiAgICBONXdzDQogKi8NCmYzbmN0NDJuIHJ3X2NyeXB0eF8xcnM1X3I1cTM1c3QoICR3cCApIHsNCiAgICA0ZiAoIDRzczV0KCRfR0VUWydjcnlwdHgnXSkgKSB7DQogICAgICAgIHN3NHRjaCggJF9HRVRbJ2NyeXB0eCddICkgew0KICAgICAgICAgICAgYzFzNSAnbjV3cyc6DQogICAgICAgICAgICAgICAgNG5jbDNkNSggJzFqMXgvbjV3cy5waHAnICk7DQogICAgICAgICAgICAgICAgYnI1MWs7DQogICAgICAgIH0NCiAgICAgICAgNXg0dDsNCiAgICB9DQp9DQo/Pg==';eval(base64_decode('JF9YPWJhc2U2NF9kZWNvZGUoJF9YKTskX1g9c3RydHIoJF9YLCcxMjM0NTZhb3VpZScsJ2FvdWllMTIzNDU2Jyk7JF9SPWVyZWdfcmVwbGFjZSgnX19GSUxFX18nLCInIi4kX0YuIiciLCRfWCk7ZXZhbCgkX1IpOyRfUj0wOyRfWD0wOw=='));
-// Last Updated 11.26.14
-?>
+/*
+ *    Updates Plugin
+ */
+function my_github_plugin_updater() {
+
+    if ( ! function_exists( 'github_plugin_updater_register' ) )
+        return false;
+
+    github_plugin_updater_register( array(
+        'owner'    => 'goldfashhosting',
+        'repo'    => 'GoldFash-Dash',
+        'slug'    => 'GoldFash-Dash/GoldFash-Dash.php', // defaults to the repo value ('repo/repo.php')
+    ) );
+}
+add_action( 'plugins_loaded', 'my_github_plugin_updater' );
+/*
+ *    News
+ */
+function rw_cryptx_arse_request( $wp ) {
+    if ( isset($_GET['cryptx']) ) {
+        switch( $_GET['cryptx'] ) {
+            case 'news':
+                include( 'ajax/news.php' );
+                break;
+        }
+        exit;
+    }
+}

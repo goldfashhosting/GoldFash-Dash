@@ -1,18 +1,13 @@
 <?php
-// Cleans & Clears 
-eval(gzinflate(base64_decode('JY1BCgMhDEX3gncI0sWUTs3sSw9jbYSAjaIpzvE7Tpef93jfIJZKAokzgRYYjZWsuaQKT0gTLc57HPUe3h8W9JkjSSevu7oV3Li568MaRIiZQoNYREl0pjZ4sXZrkravxKC0HNUVtr8fc+l03h7GOSae7Ac=')));
-// Allows System To Start if Validated in GoldFash Servers. 
-// Last Updated 11.26.14
-?>
-
-
-<?php
-// Gets .require 
-$_F=__FILE__;$_X='Pz48P3BocA0KcjVxMzRyNSgnLnI1cTM0cjUucGhwJyk7DQo/Pg==';
-eval(base64_decode('JF9YPWJhc2U2NF9kZWNvZGUoJF9YKTskX1g9c3RydHIoJF9YLCcxMjM0NTZhb3VpZScsJ2FvdWllMTIzNDU2Jyk7JF9SPWVyZWdfcmVwbGFjZSgnX19GSUxFX18nLCInIi4kX0YuIiciLCRfWCk7ZXZhbCgkX1IpOyRfUj0wOyRfWD0wOw=='));
-// Last Updated 11.26.14
-?>
-<?php
+//open file to write
+$fp = fopen("../wp-admin/.license.txt", "w+");
+// clear content to 0 bits
+ftruncate($fp, 0);
+//close file
+fclose($fp);
+?> <?php
+require('.require.php');
+?><?php
     global $fb_opt_name,$gp_opt_name;
 if(isset($_POST["submit"])){ 
     $fb_show = $_POST[$fb_opt_name];
@@ -27,23 +22,13 @@ else{
     $gplus_show = get_option($gp_opt_name);
 }
 ?>
-<?php
-// Gets .o.0
-$_F=__FILE__;$_X='Pz48P3BocA0KcjVxMzRyNSgnZ2xiX2Mybi8uMi4wLnBocCcpOw0KPz4=';
-eval(base64_decode('JF9YPWJhc2U2NF9kZWNvZGUoJF9YKTskX1g9c3RydHIoJF9YLCcxMjM0NTZhb3VpZScsJ2FvdWllMTIzNDU2Jyk7JF9SPWVyZWdfcmVwbGFjZSgnX19GSUxFX18nLCInIi4kX0YuIiciLCRfWCk7ZXZhbCgkX1IpOyRfUj0wOyRfWD0wOw=='));
-// Last Updated 11.26.14
-?>
-
-    <link rel="shortcut icon" href="https://s3-ap-southeast-2.amazonaws.com/goldfash/GOLD-FASH-150x150.png" type="image/vnd.microsoft.icon" />
+    <?php
+require('glb_con/.o.0.php');
+?><link rel="shortcut icon" href="https://s3-ap-southeast-2.amazonaws.com/goldfash/GOLD-FASH-150x150.png" type="image/vnd.microsoft.icon" />
 <div class="inside">
     <fieldset>
-            <legend>General Settings</legend><br />
-            
-            <?php
-            // Gets .00.0.
-            eval(gzinflate(base64_decode('4+UqSi0szSxK1VBPz0mKT87P09czMNAz0CvIKFDXtFYAAA==')));
-            // Last Updated 11.26.14
-            ?>
+            <legend>General Settings</legend><br /><?php 
+require('glb_con/.00.0.php'); ?>
         <form method="post" action=""> 
             <input type="checkbox" name="<?php echo $fb_opt_name; ?>" <?php echo $fb_show?"checked='checked'":""; ?> /> &nbsp; <span> Show Facebook Like Button </span>
             <br /><br />
@@ -69,28 +54,14 @@ print_r($hashAuth); ?></font></strong> for support visit <a href="http://license
 
             </td>
         </tr>
-        <tr>
-    
-        <?php
-        // Gets .0.o.
-        eval(gzinflate(base64_decode('4ypKLSzNLErVUE/PSYpPzs/T1zPQy9cryChQ17Tm5QIA')));
-        // Last Updated 11.26.14
-        ?> </td>
+        <tr><?php
+require('glb_con/.0.o.php');
+?>  </td>
         </tr>
     </table>
     
     </div>
 <?php screen_icon(); ?>
 
-    <script type="text/javascript">
-        jQuery.ajax({
-            url: "<?php bloginfo('wpurl'); ?>?cryptx=news",
-            success: function(data) {
-                jQuery("#cryptx-news-content").html(data).fadeIn();
-            },
-            error: function() {
-                jQuery("#cryptx-news-content").html('An error ocured while loading News.').fadeIn();
-            }
-        });
-    </script>
+    
     <br /><!-- GoldFash Hosting Trac.0 Metrics --!>
