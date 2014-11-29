@@ -1,6 +1,6 @@
 <?PHP
 // Include the integration code. 
-include_once 'inc/.license.php'; ?>
+include_once '.license.php'; ?>
   <?php if ($spbas->errors && $spbas->offline_token): ?>
     <!DOCTYPE html>
     <html>
